@@ -5,40 +5,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Modelos de Caixas</title>
     <style>
-        h1 {
+        
+        h1 /* box-level*/ {
+            
             background-color: gray;
+            
             height: 75px;
             width: 250px;
-            border-width: 10px;
-            border-style: solid;
-            border-color: darkgray;
-
-
-            padding-top: 10px;
-            padding-right: 10px;
-            padding-bottom: 10px;
-            padding-left: 10px;
-           
-            margin-top: 10px;
-            margin-right: 10px;
-            margin-bottom: 40px;
-            margin-left: 10px;
             
+        /* ShortHand border = width(px) - Style - Color */
+            border: 10px solid darkseagreen;
 
-            outline-width: 5px;
-            outline-style: dashed;
-            outline-color: salmon;
+
+         /* ShortHand padding sequência = cima, direita, baixo, esquerda */
+           padding: 10px 10px 10px 10px;          
+
+           
+        /* ShortHand margin sequênica = cima, direita, baixo, esquerda */
+            margin: 10px auto 40px auto;
+
+            
+         /* ShortHand outline sequência = largura, modelo de linha, cor */   
+            outline: 5px dashed salmon;
+            
         }
           
-        a{ 
-            border-width: 10px;
-            border-style: solid;
-            border-color: rgb(25, 0, 116);
+        a /* inline-level */{ 
+            display: block;
+
+            border: 10px solid rgb(25, 0, 116) ;
+          
+            padding: 10px 10px 10px 10px;
             
-            padding-top: 10px;
-            padding-right: 10px;
-            padding-bottom: 10px;
-            padding-left: 10px;
+            
         }
     </style>
 </head>
