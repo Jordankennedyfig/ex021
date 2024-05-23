@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tag</title>
+    <style>
+        body{
+            font-family: sans-serif;
+            background-color: grey
+        }
+        header{
+            padding: 10px;
+            margin: 10px;
+            background-color: #ffffff;
+        }
+        nav{
+            background-color: grey;
+            padding: 3px;
+        }
+        nav > a {
+            text-decoration: none;
+            color: white;
+            font-weight: normal;
+            margin-right: 50px;
+            
+        }
+
+        nav > a:hover {
+            text-decoration: underline;
+        }
+        main {
+            background-color: rgb(255, 255, 255);
+            padding: 10px;
+            margin: 10px;
+        }
+        article{
+            background-color:lightgray;
+            padding: 5px;
+
+
+        }
+        article > aside {
+            background-color: rgb(167, 167, 167);
+
+        }
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 5px;
+            margin: 0px;
+        }
+        section > p {
+            padding: 5px;
+            margin-left: 1px;
+            margin: 10px;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">MUSICAS</a>
+            <a href="#">TAGS</a>
+            <a href="#">BIOGRAFIA</a>
+            <a href="#">CONTATOS</a>
+    
+        </nav>
+
+    </header>
+    <main>
+        <section id="assuntos">
+            <p>Musicas História </p>
+
+        </section>
+        <section id="noticia">
+            <article>
+                <h2>Notícia sobre o Brasil</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Saepe id ipsa nemo obcaecati accusantium possimus error mollitia. Expedita, dignissimos. Quia provident possimus molestias nemo, maiores delectus. Provident omnis maxime corporis.</p>
+                <aside>
+                    <p>Artigos escrito por José da Silva</p>
+                </aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        Desenvolvido por Jordan Kennedy
+
+    </footer>
+</body>
+</html>
